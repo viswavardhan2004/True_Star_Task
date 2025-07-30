@@ -1,0 +1,10 @@
+{
+    "buildCommand": "npm install",
+    "outputDirectory": ".",
+    "framework": null,
+    "env": {
+      "MONGO_URI": "@mongo_uri",
+      "PORT": "5000",
+      "JWT_SECRET": "@jwt_secret"
+    }
+  }
